@@ -9,7 +9,7 @@ config = {
     'charset' : 'utf8',
     'use_unicode' : True}
 
-try : #db 연동시 문제가 생길수 있기때문에 try 문을 이용함
+try : #db 연동시 예외가 발생할 수 있기 때문에 try 문을 이용함
     conn = pymysql.connect(**config) # (3) dict(KEY와 VALUE)를 받을때는 ** 사용하여 db 연동 객체 생성
     cursor = conn.cursor() # (4) sql문 실행 객체
     # (5) 테이블 조회
