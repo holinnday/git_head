@@ -1,0 +1,9 @@
+package chapter04;
+
+public class OpEx6 {
+	public static void main(String[] args) {
+		
+		System.out.println("2:"+Integer.toBinaryString(2));
+		System.out.println("3:"+Integer.toBinaryStrin3(2));
+	}
+}
