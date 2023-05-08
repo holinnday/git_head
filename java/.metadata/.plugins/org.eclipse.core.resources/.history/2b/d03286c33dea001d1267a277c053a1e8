@@ -1,0 +1,16 @@
+package chapter08;
+
+public class Gladiator extends Character {
+		
+		Gladiator(int hp, int power, int weapon) {
+			super(hp, power, weapon);
+		}
+		
+		void attack(Object target) {
+		System.out.println("공격");
+	}
+		
+		void defense(Object target) {
+			System.out.println("방어");
+		}
+}

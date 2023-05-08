@@ -1,0 +1,17 @@
+package chapter07;
+
+public class Excercise11 {
+	public static void main(String[] args) {
+	
+		int[] arr = {9, 5, 24, 13, 3, 21};
+		
+		Math m = new Math();
+		int max = m.max(arr);
+		int min = m.min(arr);
+		
+		System.out.println();
+		
+		
+		
+	}
+}

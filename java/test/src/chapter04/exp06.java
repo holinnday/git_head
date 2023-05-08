@@ -8,8 +8,8 @@ public class exp06 {
 		int price = 187000 ;
 		int oman = price / 50000;
 		int ilman = (price % 50000) / 10000;
-		int ochun =((price % 50000) % 10000) / 5000;
-		int ilchun =2000/ 1000;
+		int ochun =(price % 10000) / 5000;
+		int ilchun =(price % 5000)/ 1000;
 		
 		System.out.println("5만원권 : "+oman+"장");
 		System.out.println("1만원권 : "+ilman+"장");

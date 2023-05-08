@@ -1,0 +1,14 @@
+package chapter08;
+
+public class SmartPhoneMain {
+	
+	public static void main(String[] args) {
+		
+		Phone p = new Phone();
+		p.name = "전화기";
+		p.company = "현대";
+		p.color = "화이트";
+		
+		
+	}
+}

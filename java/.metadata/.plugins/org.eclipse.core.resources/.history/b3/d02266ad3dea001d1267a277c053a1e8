@@ -1,0 +1,23 @@
+package chapter08;
+
+public class Character {
+	 int hp;
+	 int power;
+	 int weapon;
+	 Object target;
+	 
+	 Chararter(int hp, int power, int weapon) {
+			this.hp = hp;
+			this.power = power;
+			this.name = name;
+		}
+	 
+	 
+	 public void attack(Object target) {
+		 System.out.println("공격");
+	 }
+	 public void defence() {
+		 System.out.println("방어");
+	 }
+}
+

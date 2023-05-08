@@ -1,0 +1,10 @@
+package Chapter09;
+
+public interface GraphicCard {
+
+	String MEMMORY = "2G";
+	
+	public void process();
+	
+	
+}

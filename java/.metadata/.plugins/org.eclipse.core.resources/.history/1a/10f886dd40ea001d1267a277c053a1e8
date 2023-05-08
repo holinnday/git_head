@@ -1,0 +1,10 @@
+package chapter08;
+
+public class CharacterMain {
+
+	public static void main(String[] args) {
+		Warrior w = new Warrior();
+		w.attack("총");
+		w.defence("모두");
+	}
+}

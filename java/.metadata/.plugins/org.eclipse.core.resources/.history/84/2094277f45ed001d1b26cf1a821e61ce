@@ -1,0 +1,15 @@
+package Chapter09;
+
+public class FootBallPlayer implements Player {
+
+	@Override
+	public void play() {
+		
+	}
+	
+	public static void playGame() {
+		System.out.println("축구선수가 축구를 합니다.");
+	}
+	
+
+}

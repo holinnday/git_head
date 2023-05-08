@@ -1,0 +1,11 @@
+package Chapter09;
+
+public interface Player {
+
+	void play();
+	
+	public static void playGame(Player p) {
+		p.play();
+	}
+	
+}

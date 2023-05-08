@@ -1,0 +1,6 @@
+package Chapter09;
+
+public interface Tv {
+	
+	void turnOn();
+}

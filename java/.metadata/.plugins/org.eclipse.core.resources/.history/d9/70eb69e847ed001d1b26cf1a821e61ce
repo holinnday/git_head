@@ -1,0 +1,17 @@
+package Chapter09;
+
+interface Tv {
+	
+	void turnOn();
+}
+
+public class Excercise4 {
+
+	public static void main(String[] args) {
+		
+		Turn p1 = new Turn() {
+			
+		p1.turnOn();
+		}
+	}
+}

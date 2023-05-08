@@ -1,0 +1,14 @@
+package chapter07;
+
+public class Student {
+	
+	String name;
+	int grade;
+	String department;
+	
+	Student(String n, ing g, String d) {
+		name = n;
+		grade = g;
+		department = d;
+	}
+}

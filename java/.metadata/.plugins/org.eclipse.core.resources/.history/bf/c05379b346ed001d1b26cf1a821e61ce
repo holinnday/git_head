@@ -1,0 +1,9 @@
+package Chapter09;
+
+public class Turning implements Tv {
+
+	public void process( ) {
+		System.out.println("TV를 켭니다.");
+	
+	}
+}

@@ -1,0 +1,19 @@
+package chapter08;
+
+public class Wizard extends Character {
+	
+	int heal;
+	
+
+	Wizard(int hp, int power, int heal) {
+		super(hp, power, heal);
+	}
+	
+	void attack() {
+	System.out.println("공격");
+}
+	
+	void powerAttack(Object target) {
+		System.out.println("치료마법");
+	}
+}

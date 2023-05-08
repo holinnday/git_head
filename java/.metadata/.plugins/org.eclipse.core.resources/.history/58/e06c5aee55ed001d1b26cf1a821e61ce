@@ -1,0 +1,17 @@
+package chapter10;
+
+public class Excercise2 {
+	
+	public static void main(String[] args) {
+		
+		Out out = new Out();
+		Out.In nn = out.new In();
+		
+	}
+}
+
+class Out {
+	class In {
+		String name = "자바";
+	}
+}

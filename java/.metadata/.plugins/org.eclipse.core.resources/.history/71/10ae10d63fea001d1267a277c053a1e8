@@ -1,0 +1,11 @@
+package chapter08;
+
+public class CharacterMain {
+
+	public static void main(String[] args) {
+		
+		Character cr = new Character();
+		cr.attack();
+		
+	}
+}

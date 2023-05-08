@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="chapter07.test.TestPackage"/>
+    <fullyQualifiedTypeName name="chapter07.test.ClassA"/>
+    <fullyQualifiedTypeName name="Chapter09.A.B"/>
+    <fullyQualifiedTypeName name="chapter10.interfacePkg.Outer.InterfaceEx"/>
+</qualifiedTypeNameHistroy>
