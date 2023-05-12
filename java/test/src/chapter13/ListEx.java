@@ -17,7 +17,7 @@ public class ListEx {
 		System.out.println(list);
 		
 		for (int i=0; i<list.size(); i++) {
-			System.out.println(i+":"+list.get(i));
+			System.out.println(i+":"+list.get(i)); //list에서 읽어올때는 get()을 활용함 
 		}
 
 	}

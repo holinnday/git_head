@@ -9,7 +9,7 @@ public class ListEx2 {
 		Vector list = new Vector();
 		list.add(1.2);
 		list.add(Math.PI);
-		list.addElement(3.4);
+		list.addElement(3.4); //이전 메서드
 		
 		for (Object o : list) {
 			System.out.println(o);
@@ -29,7 +29,7 @@ public class ListEx2 {
 			System.out.println(num+ "  삭제됨");
 		}
 		
-		System.out.println(list.indexOf(num));
+		System.out.println(list.indexOf(num)); //공란이면 해당 요소의 인덱스는 -1 출력 
 		System.out.println(list);
 	}
 

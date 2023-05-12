@@ -29,7 +29,7 @@ public class TreeSetEx {
 		System.out.println("from:"+from+" ,to:"+to+"zzzz");
 		//from-to +"zzzz" 검색
 		System.out.println(set.subSet(from,to+"zzzz")                                          );
-	
+		//내림차순 정렬 
 		set = new TreeSet(new Descend());
 		set.add("ant");set.add("alias");
 		set.add("batman");set.add("aha");

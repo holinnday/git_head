@@ -17,7 +17,7 @@ public class ArrayListComapreLinkedList {
 		System.out.println("ArrayList Access");
 		long start = System.currentTimeMillis();
 		for (int i=0; i<alist.size(); i++) {
-			alist.get(i);
+			alist.get(i); //읽어오기
 		}
 		
 		long end = System.currentTimeMillis();
